@@ -1,0 +1,21 @@
+Instragram Following List Checker Bot
+This Instragram Bot take you username and password as input and returns a list of poeople that you are following but they are not following you and also return a list of poeple that are following you but you are not following them back?
+
+as of Feb 2023, this code works with instragram website.
+
+The program take both system argument input and also command line inputs.
+However If you want you password to show hidden, use command line inputs.
+
+system argument input:
+    python main.py [Username] [Password]
+command line inputs:
+    ====> python main.py
+    The number of system inputs is too few.
+    Please re-enter your login information
+    login: [Username]
+    Password: [Password]
+
+If the code does not run:
+    1. Download a Chrome WebDriver that matches your version of Chrome browser and place in the project folder.
+    2. Install the libraries required in your virtual environment. "python -m pip install -r requirements.txt"
+    3. It is possible that this code does not work with the newest version of instragram
