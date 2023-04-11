@@ -1,5 +1,41 @@
 @charset "UTF-8";
 
+
+html, body {
+  background: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: calc(100% - 20px);
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, Sans, sans-serif;
+}
+
+.chat {
+  border: black dashed 2px;
+  content: '';
+  width: 100%;
+  height: calc(100vh - 165px);
+  background: white;
+  padding: 5px 10px;
+}
+
+.chat p {
+  margin: 0 0 5px 0;
+}
+
+
+
+@media all and (min-width: 500px) {
+  .chat {
+    height: calc(100vh - 140px);
+  }
+}
+
+
 .import {
   padding: 10px
 }
